@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header-switch {
@@ -35,4 +37,18 @@
 .dark-mode {
   color: #fff;
   background-color: #313843;
+}
+
+.people {
+  border: 2px solid rgb(143, 196, 0);
+  box-shadow: 3px 3px 5px black;
+  margin: 8px;
+  padding: 3px;
+  text-align: left;
+  width: 450px;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
 }

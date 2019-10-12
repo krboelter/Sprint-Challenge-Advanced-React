@@ -35,7 +35,7 @@ function App() {
           />
         </div>
       </div>
-      <PeopleList data={data} />
+      <PeopleList data-testid="peopleList" data={data} />
     </div>
   );
 }
